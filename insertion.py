@@ -8,12 +8,18 @@ def insertion_sort_descending(arr):
         arr[j + 1] = key
 
 # Examplw 1
-arr = [12, 11, 13, 5, 6]
-insertion_sort_descending(arr)
-print("Sorted array in descending order:", arr)
+arr1 = [12, 11, 13, 5, 6]
+insertion_sort_descending(arr1)
+print("Sorted array in descending order:", arr1)
 
 
 # Example 2
-arr = [12, 11, 13, 5, 6, 7, 2000, 80, 11]
-insertion_sort_descending(arr)
-print("Sorted array in descending order:", arr)
+arr2 = [12, 11, 13, 5, 6, 7, 2000, 80, 11]
+insertion_sort_descending(arr2)
+print("Sorted array in descending order:", arr2)
+
+
+# Example 2
+arr3 = [12, 16, 19, 15, 96, 712, 2000, 80, 11]
+insertion_sort_descending(arr3)
+print("Sorted array in descending order:", arr3)
